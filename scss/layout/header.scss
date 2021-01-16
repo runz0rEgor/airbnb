@@ -1,0 +1,11 @@
+.header {
+  min-height: 100vh;
+  background-image: url("../../img/header/header-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

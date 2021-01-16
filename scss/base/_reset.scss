@@ -6,18 +6,23 @@
   padding: 0;
 }
 
-body {
-  font-family: $FONT_FAMILY;
-  background-color: $BACKGROUND_COLOR;
-}
-
-h1,h2,h3,h4,h5,h6,p,a,ul,li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
   list-style: none;
   text-decoration: none;
   color: inherit;
 }
 
-input,button {
+input,
+button {
   font: inherit;
   outline: none;
-} 
+}
