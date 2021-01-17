@@ -1,5 +1,8 @@
+@import "../abstracts/variables";
+
 .header {
   min-height: 100vh;
+  padding: 20px 0;
   background-image: url("../../img/header/header-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -7,5 +10,67 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+.header__about {
+  color: $HEADER_LINKS_COLOR;
+  &-link {
+    padding: 0 12px;
+    position: relative;
+    &:hover {
+      opacity: 0.6;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: 18px;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 1px;
+      bottom: -9px;
+      left: 50%;
+      margin-left: -9px;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-text {
+      font-size: 16px;
+      color: $HEADER_LINKS_COLOR;
+      font-weight: 600;
+      padding-right: 25px;
+    }
+  }
+}
+
+.menu__links-btn {
+  color: #fff;
+  background: inherit;
+  border: none;
+  padding-top: 8px;
+}
+
+.menu__burger {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 12px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 21px;
+  margin-left: 25px;
+  color: $FORM_BOTTOM_LINKS_COLOR;
+  &-btn {
+    margin-right: 10px;
+  }
+  &-img {
   }
 }
