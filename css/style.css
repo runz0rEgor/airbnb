@@ -58,3 +58,17 @@ input, button {
 .offers-main-box {
   display: flex;
   justify-content: space-between; }
+
+.offers-img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px; }
+
+.offers-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px; }
+
+.offers-content-box {
+  padding: 0 10px; }
