@@ -18,42 +18,51 @@ input, button {
   outline: none; }
 
 .footer {
-  display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  background-color: #484848; }
-
-.container {
-  max-width: 1170px;
-  margin: 0 auto; }
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  border-top: 1px solid rgba(192, 192, 192, 0.705); }
 
 .top-footer-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid rgba(192, 192, 192, 0.705);
+  padding-bottom: 45px; }
 
 .footer-links {
   display: flex;
   flex-direction: column; }
+
+.footer-link {
+  padding-top: 15px;
+  font-size: 17px;
+  line-height: 18px; }
 
 .footer-link:hover {
   text-decoration: underline; }
 
 .bottom-footer-container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 20px; }
 
 .lang-valute-links {
   display: flex;
   justify-content: space-between; }
+
+.footer-links-title {
+  font-size: 13px; }
 
 .container {
   max-width: 1170px;
   margin: 0 auto; }
 
 .offers-section {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 55px;
+  padding-bottom: 65px; }
 
 .offers-main-box {
   display: flex;
@@ -68,7 +77,13 @@ input, button {
 .offers-title {
   font-size: 32px;
   font-weight: 700;
-  line-height: 36px; }
+  line-height: 36px;
+  padding-bottom: 28px; }
 
-.offers-content-box {
+.offers-content-box-center {
   padding: 0 10px; }
+
+.offers-img-description {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600; }

@@ -4,6 +4,9 @@
 }
 .offers-section{
     background-color: #fff;
+    padding-top: 55px;
+    padding-bottom: 65px;
+
 }
 .offers-main-box{
     display: flex;
@@ -19,7 +22,13 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
+    padding-bottom: 28px;
 }
-.offers-content-box{
+.offers-content-box-center{
     padding: 0 10px;
+}
+.offers-img-description{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
 }
