@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0; }
 
+
+
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
   list-style: none;
   text-decoration: none;
@@ -17,6 +19,31 @@ input, button {
 .container {
   max-width: 1170px;
   margin: 0 auto; }
+
+.city__link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .city__link-card {
+    max-width: 380px;
+    border-radius: 20px; }
+  .city__link-img {
+    object-fit: cover;
+    height: 64px;
+    width: 64px; }
+
+.city__home {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+  .city__home-card {
+    max-width: 400px;
+    max-height: 430px; }
+  .city__home-img {
+    max-height: 400px;
+    max-width: 400px; }
 
 .container {
   max-width: 1170px;

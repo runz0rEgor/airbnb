@@ -2,3 +2,47 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.city {
+    &__section {
+
+    }
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        &-card {
+            max-width: 380px;
+            border-radius: 20px ;
+        }
+        &-img {
+            object-fit: cover;
+            height: 64px;
+            width: 64px;
+        }
+        &-title {
+
+        }
+    }
+    &__home {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        &-card {
+            max-width: 400px;
+            max-height: 430px;
+        }
+        &-img {
+            max-height: 400px;
+            max-width: 400px;
+        }
+        &-title {
+
+        }
+
+    }
+
+
+}
