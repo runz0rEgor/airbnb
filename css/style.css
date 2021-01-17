@@ -32,6 +32,74 @@ body {
   max-width: 1170px;
   margin: 0 auto; }
 
+.form {
+  max-width: 850px;
+  margin: 0 auto; }
+
+.form__wrapper {
+  margin-top: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 32px;
+  color: #222222;
+  display: flex;
+  flex: 1 1 0%;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15), 0px 3px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; }
+
+.form__location {
+  flex: 1.5 0 0%; }
+
+.form__label {
+  padding: 14px 32px; }
+  .form__label-title {
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.04em; }
+
+.form__input {
+  border: none;
+  width: 100%;
+  font-size: 14px; }
+
+.form__time {
+  display: flex;
+  flex: 2 0 0%; }
+
+.arrival-wrap {
+  flex: 1 0 0%;
+  padding: 14px 24px; }
+
+.arrival-text {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+  line-height: 16px; }
+
+.arrival-text-shadow {
+  font-size: 14px;
+  line-height: 18px;
+  color: #717171;
+  margin-top: 4px; }
+
+.departure-wrap {
+  flex: 1 0 0%;
+  padding: 14px 24px; }
+
+.depatrude-text {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+  line-height: 16px; }
+
+.depatrude-text-shadow {
+  font-size: 14px;
+  line-height: 18px;
+  color: #717171;
+  margin-top: 4px; }
+
 .header {
   min-height: 100vh;
   padding: 20px 0;
