@@ -1,4 +1,31 @@
 .footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $FOOTER_BACKGROUND_COLOR;
+}
+.container{
     max-width: 1170px;
     margin: 0 auto;
+}
+.top-footer-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.bottom-footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.lang-valute-links{
+    display: flex;
+    justify-content: space-between;
 }
