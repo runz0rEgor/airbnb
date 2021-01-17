@@ -16,6 +16,21 @@
 
 .form__location {
   flex: 1.5 0 0%;
+  position: relative;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
 }
 
 .form__label {
@@ -32,16 +47,50 @@
   border: none;
   width: 100%;
   font-size: 14px;
+  background-color: inherit;
 }
 
 .form__time {
   display: flex;
   flex: 2 0 0%;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
+}
+
+.form__guests {
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+  }
 }
 
 .arrival-wrap {
   flex: 1 0 0%;
   padding: 14px 24px;
+  position: relative;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
 }
 
 .arrival-text {
@@ -62,6 +111,10 @@
 .departure-wrap {
   flex: 1 0 0%;
   padding: 14px 24px;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+  }
 }
 
 .depatrude-text {
