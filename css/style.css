@@ -196,7 +196,7 @@ body {
 .header {
   min-height: 90vh;
   padding: 20px 0;
-  background-image: url("../../img/header/house.png");
+  background-image: url("/img/header/header-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
