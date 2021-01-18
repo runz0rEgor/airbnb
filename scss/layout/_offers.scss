@@ -1,12 +1,13 @@
-// .container{
-//     max-width: 1440px;
-//     margin: 0 auto;
-// }
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .offers-section{
     background-color: #fff;
     padding-top: 55px;
     padding-bottom: 65px;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    overflow: hidden;
 }
 .offers-main-box{
     display: flex;
@@ -24,7 +25,7 @@
     line-height: 36px;
     padding-bottom: 28px;
 }
-.offers-content-box-center{
+.center{
     padding: 0 10px;
 }
 .offers-img-description{

@@ -109,11 +109,16 @@ svg:hover {
 .point:hover {
   color: #222222d3; }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto; }
+
 .offers-section {
   background-color: #fff;
   padding-top: 55px;
   padding-bottom: 65px;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; }
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  overflow: hidden; }
 
 .offers-main-box {
   display: flex;
@@ -131,7 +136,7 @@ svg:hover {
   line-height: 36px;
   padding-bottom: 28px; }
 
-.offers-content-box-center {
+.center {
   padding: 0 10px; }
 
 .offers-img-description {
@@ -238,4 +243,17 @@ svg:hover {
     font-size: 26px;
     font-weight: 700;
     line-height: 36px;
-    padding-bottom: 28px; } }
+    padding-bottom: 28px; }
+  .offers-content-box {
+    flex: 0 0 50%;
+    padding: 5px 5px 5px 0; } }
+
+@media (max-width: 743px) {
+  .offers-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 19px; }
+  .offers-section {
+    padding-top: 20px;
+    padding-bottom: 25px; } }
