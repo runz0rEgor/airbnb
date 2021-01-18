@@ -1,7 +1,6 @@
 {
   "name": "airbnb",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "css": "node-sass ./scss/main.scss ./css/style.css -w"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runz0rEgor/airbnb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/runz0rEgor/airbnb/issues"
+  },
+  "homepage": "https://github.com/runz0rEgor/airbnb#readme",
+  "description": ""
 }

@@ -1,0 +1,42 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.offers-section{
+    background-color: #fff;
+    padding-top: 55px;
+    padding-bottom: 65px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.offers-main-box{
+    display: flex;
+    justify-content: space-between;
+}
+.offers-img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.offers-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 28px;
+}
+.offers-content-box-center{
+    padding: 0 10px;
+}
+.offers-img-description{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 550;
+}
+@media(max-width:949px){
+    .offers-title{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 36px;
+        padding-bottom: 28px;
+    }
+}
