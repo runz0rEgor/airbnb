@@ -95,7 +95,10 @@ input, button {
     position: absolute; }
 
 .point {
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 15px;
+  line-height: 18px; }
 
 svg:hover {
   color: #222222d3; }
@@ -112,15 +115,20 @@ svg:hover {
     flex-direction: column;
     border-bottom: none;
     padding-bottom: 20px; }
+  .footer-link {
+    display: flex;
+    flex-basis: 33.333%; }
   .footer-links {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     max-height: 100px;
-    width: auto;
     border-bottom: 1px solid rgba(192, 192, 192, 0.705);
     padding-bottom: 25px; }
   .footer-links-title {
     padding-top: 20px; }
+  .large-box {
+    max-height: 120px; }
   .footer {
     padding-top: 40px; }
   .bottom-footer-container {
@@ -138,17 +146,17 @@ svg:hover {
   .point {
     position: relative; }
     .point::after {
-      content: "";
-      top: 15px;
-      left: 2px;
+      content: none;
+      top: 0;
+      left: 0;
       display: block;
       position: absolute; }
   .point-sec {
     position: relative; }
     .point-sec::after {
       content: "·";
-      top: 15px;
-      left: 2px;
+      top: 11px;
+      left: 1px;
       display: block;
       position: absolute; } }
 
@@ -159,7 +167,9 @@ svg:hover {
     max-height: 300px;
     width: auto;
     border-bottom: 1px solid rgba(192, 192, 192, 0.705);
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    flex-direction: column;
+    flex-basis: 0; }
   .sites-logos {
     display: none; }
   .bottom-footer-container {
@@ -187,7 +197,7 @@ svg:hover {
     position: relative; }
     .point-sec::after {
       content: "·";
-      top: 2px;
+      top: 0;
       left: 0;
       right: 10px;
       display: block;
