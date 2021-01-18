@@ -186,7 +186,8 @@ body {
   padding: 20px 0;
   background-image: url("../../img/header/house.png");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   .header__inner {
     display: flex;
     justify-content: space-between;
