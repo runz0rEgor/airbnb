@@ -1,0 +1,112 @@
+@media (max-width: 1127px){
+  .city__link-line1 {
+    overflow: hidden;
+  }
+  .city__link-line2 {
+    overflow: hidden;
+  }
+  .city__link-card {
+    flex: 0 0 32.3%;
+    overflow: hidden;
+  }
+  .city__link-img {
+    margin: 10px;
+
+  }
+  .container {
+    max-width: 1110px;
+  }
+  .city__link {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 949px){
+  .city__home-card {
+    overflow: hidden;
+  }
+  .city__home-mainbox {
+    overflow: hidden;
+  }
+  .city__home-card:last-child {
+    display: none;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .city__home-title {
+    padding-bottom: 10px;
+    margin-left: 12px;
+    font-size: $FONT_SIZE;
+    line-height: 0;
+  }
+  .city__section {
+    padding-bottom: 30px;
+  }
+  .offer__travel__title1 {
+    margin: 5px 0;
+  }
+  .offer__travel__title{
+    font-size: 19px;
+  }
+  .city__home-cardtitle {
+    font-size: $FONT_SIZE;
+  }
+  .city__link-title{
+    font-size: $FONT_SIZE;
+  }
+  .offer__travel__card-title {
+    font-size: $FONT_SIZE;
+  }
+  .offer__section {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 743px){
+  .city__link-line1 {
+    overflow: hidden;
+  }
+  .city__link-line2 {
+    overflow: hidden;
+  }
+  .city__link-card {
+    flex: 0 0 50%;
+    overflow: hidden;
+  }
+  .offer__travel__title {
+    font-size: 19px;
+  }
+  .offer__travel__title1 {
+    font-size: 13px;
+  }
+  .offer__section {
+    padding-top: 2px;
+  }
+}
+
+@media (max-width: 380px){
+  .city__link-title {
+    font-size: 12px;
+    margin:0;
+  }
+  .city__link-card {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .city__home-cardtitle {
+    font-size: 12px;
+  }
+  .offer__travel__title1 {
+    font-size: 12px;
+  }
+  .offer__travel__card-title {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 20px;
+    strong {
+      font-size: 14px;
+    }
+  }
+}
+

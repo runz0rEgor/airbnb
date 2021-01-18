@@ -1,4 +1,3 @@
-
 @import "./abstracts/variables";
 @import "./base/reset";
 @import "./base/base";
@@ -7,8 +6,14 @@
 @import "./components/form";
 @import "./layout/wrapper.scss";
 @import "./layout/header.scss";
-@import "./abstracts/media-header";
-@import './layout/footer';
+@import './layout/cityLinks.scss';
+@import './layout/offersTravel.scss';
 @import './layout/offers';
-@import './abstracts/media-footer';
+@import './layout/footer';
+@import "./abstracts/media-header";
+@import './abstracts/media-citylinks';
 @import './abstracts/media-offers-section';
+@import './abstracts/media-footer';
+
+
+
