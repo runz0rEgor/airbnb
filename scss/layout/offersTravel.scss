@@ -1,26 +1,46 @@
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
+@import '../abstracts/variables';
 
 .offer{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 30px;
     &__section {
-
+        
     }
     &__travel {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        &-title {
+            margin: 10px;
+            color: $OFFERS_TRAVEL_LINKS_COLOR;
+        }
         &__title {
-
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36px;
+        }
+        &__title1 {
+            margin: 15px 0;
+            color: $OFFERS_TRAVEL_LINKS_COLOR;
         }
         &__card{
             &-item {
-
+                flex: 0 0 33.3333%;
+                padding: 0 10px;
             }
             &-img {
-
+                width: 100%;
+                height: auto; 
+                margin: 0 auto;
+                border-radius: 10px;
             }
             &-title {
-
+                margin: 15px 0;
+                color: $OFFERS_TRAVEL_LINKS_COLOR
             }
         }
     }
