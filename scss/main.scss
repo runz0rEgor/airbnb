@@ -1,3 +1,4 @@
+
 @import "./abstracts/variables";
 @import "./base/reset";
 @import "./base/base";
@@ -7,3 +8,7 @@
 @import "./layout/wrapper.scss";
 @import "./layout/header.scss";
 @import "./abstracts/media-header";
+@import './layout/footer';
+@import './layout/offers';
+@import './abstracts/media-footer';
+@import './abstracts/media-offers-section';

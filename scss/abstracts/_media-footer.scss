@@ -1,0 +1,117 @@
+@media(max-width:1127px){
+    .top-footer-container{
+        display: flex;
+        flex-direction: column;
+        border-bottom:none ;
+        padding-bottom: 20px;
+    }
+    .footer-link {
+        display: flex;
+        flex-basis: 33.333%;
+    }
+    .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-height: 100px;
+        border-bottom:  1px solid rgba(192, 192, 192, 0.705);
+        padding-bottom: 25px;
+        
+    }
+    .footer-links-title{
+        padding-top: 20px;
+    }
+    .large-box{
+        max-height: 120px;
+    }
+    .footer{
+        padding-top: 40px;
+    }
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    .descrip-rights-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .point{ position: relative;
+        &::after{
+            content: none;
+            top: 0;
+            left: 0;
+            display: block;
+            position: absolute;
+        }}
+    .point-sec {
+        position: relative;
+        &::after{
+            content: "·";
+            top: 11px;
+            left: 1px;
+            display: block;
+            position: absolute;
+        }
+    }
+    }
+    @media(max-width:743px){
+        .footer-links{
+            display: flex;
+            flex-wrap: nowrap;
+            max-height: 300px;
+            width: auto;
+            border-bottom:  1px solid rgba(192, 192, 192, 0.705);
+            padding-bottom: 25px;
+            flex-direction: column;
+            flex-basis: 0;
+            
+        }
+        .sites-logos{
+            display: none;
+        }
+        .bottom-footer-container{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 0;
+        }
+        .descrip-rights-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 15px;
+            font-size: 12px;
+        }
+        .lang-valute-link{
+            padding-left: 0;
+        }
+        .ruble-logo{
+            padding-left: 20px;
+        }
+        .point{ padding: 0;
+            &::after{
+                content:none;
+            }}
+        .point-sec {
+            padding-left: 8px;
+            position: relative;
+            &::after{
+                content: "·";
+                top: 0;
+                left: 0;
+                right: 10px;
+                display: block;
+                position: absolute;
+            }
+        }
+     
+    }
+    
