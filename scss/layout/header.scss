@@ -1,11 +1,11 @@
 @import "../abstracts/variables";
 
 .header {
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 20px 0;
-  background-image: url("../../img/header/header-bg.webp");
+  background-image: url("../../img/header/house.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   &__inner {
     display: flex;
     justify-content: space-between;
