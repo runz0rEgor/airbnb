@@ -11,6 +11,14 @@
         
     }
     
+    .offers-main-box {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    
 }
 @media(max-width:743px){
     .offers-title{

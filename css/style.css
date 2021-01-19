@@ -387,8 +387,7 @@ body {
 
 .offers-main-box {
   display: flex;
-  justify-content: space-between;
-  overflow-x: scroll; }
+  justify-content: space-between; }
 
 .offers-img {
   max-width: 100%;
@@ -659,7 +658,12 @@ svg:hover {
     padding-bottom: 28px; }
   .offers-content-box {
     flex: 0 0 50%;
-    padding: 5px 5px 5px 0; } }
+    padding: 5px 5px 5px 0; }
+  .offers-main-box {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch; }
+    .offers-main-box::-webkit-scrollbar {
+      display: none; } }
 
 @media (max-width: 743px) {
   .offers-title {
