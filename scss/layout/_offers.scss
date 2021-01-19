@@ -8,6 +8,7 @@
 .offers-main-box{
     display: flex;
     justify-content: space-between;
+    overflow-x: scroll;
 }
 .offers-img{
     max-width: 100%;

@@ -67,7 +67,8 @@ body {
   position: relative; }
   .form__location:hover {
     background-color: #dddddd;
-    border-radius: 32px; }
+    border-radius: 32px;
+    transition: all linear 0.3s; }
   .form__location::after {
     content: "";
     position: absolute;
@@ -110,7 +111,8 @@ body {
   position: relative; }
   .form__guests:hover {
     background-color: #dddddd;
-    border-radius: 32px; }
+    border-radius: 32px;
+    transition: all linear 0.3s; }
 
 .icon-wrap {
   position: absolute;
@@ -138,7 +140,8 @@ body {
   position: relative; }
   .arrival-wrap:hover {
     background-color: #dddddd;
-    border-radius: 32px; }
+    border-radius: 32px;
+    transition: all linear 0.3s; }
   .arrival-wrap::after {
     content: "";
     position: absolute;
@@ -167,7 +170,8 @@ body {
   padding: 14px 24px; }
   .departure-wrap:hover {
     background-color: #dddddd;
-    border-radius: 32px; }
+    border-radius: 32px;
+    transition: all linear 0.3s; }
 
 .depatrude-text {
   font-size: 12px;
@@ -383,7 +387,8 @@ body {
 
 .offers-main-box {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  overflow-x: scroll; }
 
 .offers-img {
   max-width: 100%;
